@@ -1,7 +1,9 @@
 luvi-cli-starter
 ================
 
-A starting point for making Luvi command line apps
+A starting point for making [Luvi](https://github.com/luvit/luvi) command line apps.
+
+If you are new to Luvi, or want to learn more, please checkout [Luvi](https://github.com/luvit/luvi), [Luv](https://github.com/luvit/luv), or [Lit](https://github.com/luvit/lit) project pages. You can also checkout the [Luvit website](https://luvit.io/).
 
 ### Getting Started
 
@@ -42,4 +44,3 @@ luvi . -o mybinary
 ./mybinary
 # Deploy / Publish / Profit!
 ```
-
