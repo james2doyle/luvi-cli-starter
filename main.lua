@@ -56,7 +56,7 @@ coroutine.wrap(function ()
     require(path)
   end, debug.traceback)
   -- add some space between the last line and our exit message
-  print("")
+  print()
   -- feedback on how we did
   if success then
     log("done", "success", "success")

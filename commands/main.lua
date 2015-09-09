@@ -1,6 +1,8 @@
 local prompt = require('prompt')(require('pretty-print'))
 local exec = require('exec')
 
+local log = require('log').log
+
 -- Takes a time struct with a date and time in UTC and converts it into
 -- seconds since Unix epoch (0:00 1 Jan 1970 UTC).
 -- Trickier than you'd think because os.time assumes the struct is in local time.
@@ -41,3 +43,14 @@ local name = prompt('Your Name', defaultName)
 local system = prompt('Your System Type', defaultSystem)
 
 print(name, system)
+
+-- print blank line
+print()
+
+-- everything is great
+log("done", "success", "success")
+os.exit(0)
+
+-- everything is terrible
+-- log("fail", "mock error event", "failure")
+-- os.exit(-1)
