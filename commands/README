@@ -1,0 +1,7 @@
+
+mybinary Commands
+=================
+
+ mybinary help                    Show usage information.
+ mybinary version                 Show the version information.
+ mybinary main                    Run the "commands/main.lua" file
